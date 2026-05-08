@@ -1,8 +1,7 @@
 import java.util.*;
 
-public class Q3VowelExchange {
-    // leetcode 345. Reverse Vowels of a String
-    public String vowelExchange(String s) {
+public class Q3ReverseVowelsOfAString {
+    public String reverseVowels(String s) {
         Set<Character> vowels = new HashSet<>();
         // HashSet 没有set 方法, 是add
         vowels.add('a');

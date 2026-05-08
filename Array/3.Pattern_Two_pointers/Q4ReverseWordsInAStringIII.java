@@ -1,5 +1,4 @@
-public class Q4ReverseWords {
-    // leetcode 557. Reverse Words in a String III
+public class Q4ReverseWordsInAStringIII {
     public String reverseWords(String s) {
         if (s == null || s.length() <= 1 || s.isBlank())
             return s;
