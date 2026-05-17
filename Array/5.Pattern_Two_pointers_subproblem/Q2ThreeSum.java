@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Q2ThreeSum {
+    // leetcode 15. 3Sum
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();
 
@@ -34,7 +35,7 @@ public class Q2ThreeSum {
                         right--;
                     }
 
-                    //另一种写法: 先跳到重复值的边界, 然后再额外移动一步, 离开当前值
+                    // 另一种写法: 先跳到重复值的边界, 然后再额外移动一步, 离开当前值
                     // while(left < right && nums[left] == nums[left + 1]) {
                     //     left++;
                     // }

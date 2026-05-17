@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Q2TwoSumLessThanK {
+    // leetocde 1099. Two Sum Less Than K
     public int twoSumLessThanK(int[] nums, int k) {
         Arrays.sort(nums);
         int left = 0;

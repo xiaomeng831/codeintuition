@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Q3ThreeSumClosest {
+    // leetcode 16. 3Sum Closest
     public int threeSumClosest(int[] nums, int target) {
 
         Arrays.sort(nums);
